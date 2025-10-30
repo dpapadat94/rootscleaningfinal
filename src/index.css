@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Make Roboto the default sans everywhere */
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* (Optional) ensure the browser actually uses the Tailwind sans on <html> */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+}
