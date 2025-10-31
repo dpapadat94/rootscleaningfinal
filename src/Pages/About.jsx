@@ -1,6 +1,7 @@
 import React from "react";
 import aboutBanner from "../assets/aboutbanner.png";
 import rootslogo from "../assets/rootslogo.png";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -29,12 +30,12 @@ export default function About() {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-              <a
-                href="#quote"
-                className="inline-flex items-center justify-center rounded-md bg-[#FFD8F0] px-5 py-3 text-sm font-semibold text-slate-900 shadow hover:brightness-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+              <Link
+                to="/book"
+                className="inline-block px-6 py-2 rounded-lg bg-[#FFD8F0] text-black font-medium hover:bg-pink-300 transition-colors"
               >
-                Book with us today
-              </a>
+                Book Now
+              </Link>
             </div>
           </div>
 
