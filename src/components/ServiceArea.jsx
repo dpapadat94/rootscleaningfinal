@@ -64,7 +64,7 @@ export default function ServiceArea() {
             <p className="mt-6 text-sm text-gray-500">
               Outside this area? We may still be able to help —{" "}
               <span className="font-medium text-gray-700">
-                call 555-555-5555
+                call 980-990-3223
               </span>
               .
             </p>

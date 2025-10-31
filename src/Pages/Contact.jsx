@@ -244,7 +244,7 @@ export default function Contact() {
                 <p className="text-sm text-gray-600">
                   Prefer to talk? Call us at{" "}
                   <a href="tel:+17042661150" className="underline">
-                    (704) 266-1150
+                    980-990-3223
                   </a>
                 </p>
                 <button

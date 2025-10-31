@@ -41,7 +41,7 @@ export default function Home() {
             Select and schedule your services in under 5 minutes
           </p>
           <Link
-            to="/services"
+            to="/book"
             className="inline-block px-8 sm:px-10 py-3 rounded bg-[#FFD8F0] text-black text-lg sm:text-xl font-semibold shadow-md hover:bg-pink-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-300/70 transition"
           >
             Instant Book

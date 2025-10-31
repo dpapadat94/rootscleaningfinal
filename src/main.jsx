@@ -10,6 +10,7 @@ import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Organize from "./Pages/Organize.jsx";
 import NotFound from "./Pages/NotFound.jsx";
+import Book from "./Pages/Book.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: "contact", element: <Contact /> },
       { path: "*", element: <NotFound /> },
       { path: "organize", element: <Organize /> },
+      { path: "book", element: <Book /> },
     ],
   },
 ]);

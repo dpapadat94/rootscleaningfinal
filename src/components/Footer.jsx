@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           {/* Contact Info */}
           <div className="text-sm text-gray-600 space-y-2 text-center sm:text-left">
-            <p>📞 (555) 123-4567</p>
+            <p>📞 980-990-3223</p>
             <div className="flex items-center justify-center sm:justify-start gap-2">
               <FaInstagram className="text-pink-400" />
               <Link to="/" className="hover:text-gray-700">
@@ -26,7 +26,7 @@ export default function Footer() {
               Get started with Roots Cleaning today
             </p>
             <Link
-              to="/services"
+              to="/book"
               className="inline-block px-6 py-2 rounded-lg bg-[#FFD8F0] text-black font-medium hover:bg-pink-300 transition-colors"
             >
               Book Now
