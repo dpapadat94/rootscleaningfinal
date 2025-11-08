@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 
-export default function Book() {
+export default function Estimate() {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    // Dynamically adjust iframe height based on BookingKoala messages
     const handleMessage = (event) => {
       if (event.origin.includes("bookingkoala.com") && event.data.height) {
-        const iframe = document.getElementById("bk-embed");
+        const iframe = document.getElementById("bk-estimate");
         if (iframe) iframe.style.height = `${event.data.height + 350}px`;
       }
     };
@@ -21,29 +20,36 @@ export default function Book() {
       {/* HEADER */}
       <div className="bg-[#a3c585]/20 py-10 sm:py-14 text-center">
         <h1 className="text-3xl sm:text-5xl font-semibold text-[#4e7330] mb-3">
-          Book Now or Schedule Your Free Estimate
+          Schedule a Free Estimate
         </h1>
         <p className="text-gray-700 max-w-3xl mx-auto px-4 text-base sm:text-lg">
-          Choose between residential cleaning or commercial/construction
-          estimates below. Fill in your contact details and preferred date—no
+          Request a free quote for your commercial or construction cleaning
+          needs. Fill out your contact details and preferred date below — no
           payment required.
         </p>
       </div>
 
-      {/* BOOKING FORM */}
-      <div className="w-[90%] md:w-[80%] mx-auto py-12 sm:py-16">
-        <div className="bg-white rounded-2xl shadow-md border border-gray-200 p-6 sm:p-10">
+      {/* EMBEDDED ESTIMATE FORM */}
+      <div className="max-w-6xl mx-auto px-6 py-12 sm:py-16">
+        <div
+          className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-10"
+          style={{
+            overflow: "auto",
+            maxHeight: "90vh",
+            paddingBottom: "300px", // prevents bottom cutoff
+          }}
+        >
           <iframe
-            id="bk-embed"
+            id="bk-estimate"
             src="https://rootscleaningllc.bookingkoala.com/booknow/home_cleaning?embed=true&bar=false&banner=false"
-            title="Roots Cleaning Booking Form"
+            title="Roots Cleaning Estimate Form"
             width="100%"
-            height="2000"
+            height="3400"
             style={{
               border: "none",
               display: "block",
               margin: "0 auto",
-              overflowY: "auto",
+              overflow: "visible",
               transition: "height 0.3s ease",
             }}
             scrolling="yes"
