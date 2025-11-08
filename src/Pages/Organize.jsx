@@ -63,7 +63,7 @@ export default function OrganizingServices() {
               stress-free environments that work for your lifestyle.
             </p>
             <Link
-              to="/contact"
+              to="/book"
               className="mt-6 inline-block px-6 py-3 rounded-lg bg-[#6BA243] text-white font-medium hover:brightness-95 transition"
             >
               Free Estimate
@@ -104,7 +104,7 @@ export default function OrganizingServices() {
               place.
             </p>
             <Link
-              to="/contact"
+              to="/book"
               className="mt-6 inline-block px-6 py-3 rounded-lg bg-[#6BA243] text-white font-medium hover:brightness-95 transition"
             >
               Free Estimate
@@ -137,7 +137,7 @@ export default function OrganizingServices() {
           </div>
 
           <Link
-            to="/contact"
+            to="/book"
             className="mt-5 md:mt-0 inline-flex items-center justify-center rounded-xl bg-[#6BA243] text-white font-semibold px-6 py-3 hover:brightness-95 transition"
           >
             Free Estimate

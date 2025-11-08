@@ -212,9 +212,7 @@ export default function ServicesPage() {
                         const buttonLabel = isResidential
                           ? "Book Now"
                           : "Free Estimate";
-                        const buttonLink = isResidential
-                          ? "/book"
-                          : "/estimate";
+                        const buttonLink = isResidential ? "/book" : "/book";
 
                         return (
                           <div
