@@ -66,7 +66,7 @@ export default function Contact() {
               href="mailto:info@rootscleaningllc.com"
               className="text-[#4e7330] hover:underline"
             >
-              info@rootscleaningllc.com
+              rootscleaningllc@gmail.com
             </a>
           </p>
 

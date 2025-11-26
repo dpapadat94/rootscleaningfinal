@@ -25,7 +25,7 @@ export default function Book() {
             href="mailto:info@rootscleaningllc.com"
             className="block text-xl sm:text-2xl font-semibold text-[#4e7330] hover:underline transition"
           >
-            info@rootscleaningllc.com
+            rootscleaningllc@gmail.com
           </a>
         </div>
 
