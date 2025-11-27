@@ -64,7 +64,7 @@ export default function Home() {
 
       <ServicesPreview />
       <OurMission />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ServiceArea />
     </>
   );
